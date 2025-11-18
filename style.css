@@ -33,7 +33,9 @@ p{
 
 p sup{
     margin-left:0.3rem;
-    line-height:0;
+    vertical-align:top;
+    position:relative;
+    top:-0.5rem;
 }
 
 #footnotes{
