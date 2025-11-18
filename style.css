@@ -31,6 +31,10 @@ p{
     hyphens:auto;
 }
 
+p sup{
+    margin-left:0.3rem;
+}
+
 #footnotes{
     grid-column:2/span 3;
 }
