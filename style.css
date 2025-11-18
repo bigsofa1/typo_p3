@@ -33,6 +33,7 @@ p{
 
 p sup{
     margin-left:0.3rem;
+    line-height:0;
 }
 
 #footnotes{
