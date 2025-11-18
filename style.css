@@ -25,6 +25,7 @@ h1{
 }
 
 p{
+    max-inline-size: clamp(40ch, 55ch, 60ch);
     text-indent:2rem;
     line-height:var(--line-height);
     text-wrap:balance;
