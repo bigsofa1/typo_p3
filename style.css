@@ -39,7 +39,11 @@ p sup{
 }
 
 #footnotes{
-    grid-column:2/span 3;
+    grid-column:1/span 4;
+}
+
+#footnotes div{
+    grid-column:2/4;
 }
 
 #footnotes li{
