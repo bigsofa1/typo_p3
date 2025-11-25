@@ -96,3 +96,7 @@ ul{
     grid-column:2;
     line-height:var(--line-height);
 }
+
+.no-hyphen{
+    hyphens: none;
+}
