@@ -2,7 +2,8 @@
     --spacing:4%;
     font-size:11px;
     --line-height:1.6;
-    --indent:3rem;
+    --indent:4rem;
+    --color-second-voice:#555555;
 }
 
 body{
@@ -17,26 +18,24 @@ body{
 
 body::after{
     content:"";
-    grid-column:1 / -1;
+    grid-column:1 / 4;
     height:100vh;
 }
 
+.text-titles{
+    grid-column:1/-1;
+    display:flex;
+    gap:var(--indent);
+    margin: 0 0 4rem var(--indent);
+}
+
 h1,h2{
-    margin:0 0 4rem 0;
     font-weight:inherit;
     font-size:inherit;
 }
 
 section{
     display: contents;
-}
-
-h1{
-    grid-column:1;
-}
-
-h2{
-    grid-column:3;
 }
 
 #text{
@@ -99,4 +98,14 @@ ul{
 
 .no-hyphen{
     hyphens: none;
+}
+
+.second-voice{
+    color:var(--color-second-voice);
+    text-indent:0;
+    margin-left: var(--indent);
+}
+
+.second-voice a{
+    color: color-mix(in srgb, var(--color-second-voice) 80%, black);
 }
