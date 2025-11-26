@@ -109,3 +109,7 @@ ul{
 .second-voice a{
     color: color-mix(in srgb, var(--color-second-voice) 80%, black);
 }
+
+.footnotes-historical li:first-child{
+    margin-top:var(--indent);
+}
